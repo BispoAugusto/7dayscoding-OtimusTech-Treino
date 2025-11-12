@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url(./styles/header.css);
+
+:root {
+    /* cores */
+    --cor-principal: #8E2424;
+    --cor-secundaria: #101828;
+    --cor-terciaria: #667085;
+    --cor-quartearia: #3A404E;
+    --cor-fundo: #FFFFFF;
+    /* fontes */
+    --fonte-principal: 'inter';
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    font-weight: 500;
+    /* apenas para visualização das etapas */
+    background-color: var(--cor-secundaria);
+}
+
+body a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
