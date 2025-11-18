@@ -1,0 +1,37 @@
+.rodape {
+    text-align: center;
+    padding: 100px 0;
+    background-color: var(--cor-fundo-cinza);
+}
+
+.rodape__titulo {
+    font-size: 2.25em;
+    color: var(--cor-secundaria);
+    margin-bottom: 20px;
+}
+
+.rodape__texto {
+    font-size: 1.25em;
+    padding-bottom: 40px;
+}
+
+.email-container {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.email-box {
+    width: 30%;
+    border: 1px solid var(--cor-quinta);
+    border-radius: 8px;
+}
+
+.email-box::placeholder {
+    padding-left: 1em;
+}
+
+.rodape__copyright {
+    color: var(--cor-quinta);
+}

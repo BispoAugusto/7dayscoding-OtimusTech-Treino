@@ -1,0 +1,47 @@
+.depoimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    margin: 0 5% 5% 5%;
+    padding: 5%;
+    background-color: var(--cor-fundo-rosa);
+    border-radius: 1em;
+}
+
+.depoimento-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+}
+
+.depoimento__span {
+    color: var(--cor-principal);
+    font-size: 14px; 
+    line-height: 20px;
+}
+
+.depoimento__titulo {
+    font-size: 2.25em;
+    color: var(--cor-secundaria);
+}
+
+.depoimento-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.imagem-avatar {
+    width: 56px;
+}
+
+.nome-avatar {
+    color: var(--cor-secundaria);
+}
+
+.proficao-avatar {
+    font-size: 14px;
+}

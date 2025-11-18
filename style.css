@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
+@import url(./styles/navbar.css);
 @import url(./styles/header.css);
+@import url(./styles/metric.css);
+@import url(./styles/main.css);
+@import url(./styles/depoiments.css);
+@import url(./styles/footer.css);
+
+@import url(teste.css);
 
 :root {
     /* cores */
@@ -8,7 +15,10 @@
     --cor-secundaria: #101828;
     --cor-terciaria: #667085;
     --cor-quartearia: #3A404E;
-    --cor-fundo: #FFFFFF;
+    --cor-quinta: #bbbbbb;
+    --cor-fundo: #ffffff;
+    --cor-fundo-rosa: #8E24240D;
+    --cor-fundo-cinza: #eeeeee;
     /* fontes */
     --fonte-principal: 'inter';
 }
@@ -19,7 +29,6 @@ body {
     color: var(--cor-terciaria);
     font-weight: 500;
     /* apenas para visualização das etapas */
-    background-color: var(--cor-secundaria);
 }
 
 body a {

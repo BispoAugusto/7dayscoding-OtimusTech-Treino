@@ -1,48 +1,27 @@
-.navbar {
-    /* mudar essa height em caso de resposividade vertical necessária*/
-    height: 80px; 
+.cabecalho {
     display: flex;
-    justify-content: space-between;
-    padding: 0 5% 0 5%;
-    /* apenas pra visualização das etapas */
-    background-color: var(--cor-fundo);
-}
-
-/* Logo */
-
-.navbar__container-logo {
-    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1em;
+    padding: 6em;    
 }
 
-.logo__titulo {
-    color: var(--cor-quartearia);
-    font-size: 18px;
+.cabecalho__sobrenos {
+    color: var(--cor-principal);
+    font-weight: 600;
 }
 
-/* lista */
-
-.navbar__lista {
-    display: flex;
-    align-items: center;
-    gap: 3em;
+.cabecalho__titulo {
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--cor-secundaria);
 }
 
-/* botoes */
-
-.navbar__container-botoes {
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-}
-
-.botao {
-    padding: 1em 1.5em;
-    border-radius: 8px;
-}
-
-.botao-secundario {
-    color: var(--cor-fundo);
-    background-color: var(--cor-principal);
+.cabecalho__texto {
+    font-size: 1.25em;
+    font-weight: 400;
+    max-width: 800px;
+    text-align: center;
+    padding: 0.5em;
+    line-height: 1.5em;
 }

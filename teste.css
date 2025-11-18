@@ -1,0 +1,15 @@
+body {
+    background-color: var(--cor-secundaria);
+}
+
+.navbar {
+    background-color: var(--cor-fundo);
+}
+
+.cabecalho {
+    background-color: var(--cor-fundo);
+}
+
+.metricas {
+    background-color: var(--cor-fundo);
+}
